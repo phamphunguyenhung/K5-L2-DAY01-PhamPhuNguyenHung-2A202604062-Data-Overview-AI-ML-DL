@@ -57,7 +57,7 @@ Chỉ dùng ảnh `sample_id = kitchen`. Chọn **một** record.
 Số lượng prediction theo ngưỡng: xem output ô so sánh `0.20` / `0.35` / `0.60` trong notebook.
 
 1. Chép một record:  
-   `class_name`=person ; `score`=0.912624 ; `bbox_xyxy`=[385.33, 69.24, 498.92, 348.92] ; `bbox_width`=113.58 ; `bbox_height`=279.68
+   `class_name`=person ; `score`=0.912625 ; `bbox_xyxy`=[385.33, 69.24, 498.92, 348.92] ; `bbox_width`=113.58 ; `bbox_height`=279.68
 2. Giải thích box bằng lời thường: góc trên-trái ở đâu, góc dưới-phải ở đâu, rộng/cao bao nhiêu pixel?  
    **Trả lời:** Bounding box có góc trên-trái tại tọa độ pixel (x=385.33, y=69.24) tính từ góc trên cùng bên trái của bức ảnh (0, 0); góc dưới-phải tại tọa độ pixel (x=498.92, y=348.92). Hộp bao có chiều rộng 113.58 pixel và chiều cao 279.68 pixel, ôm trọn dáng người đứng bên phải gian bếp từ đỉnh đầu xuống thân người.
 3. Chọn hai ngưỡng (vd. 0.20 và 0.60). Mỗi ngưỡng có bao nhiêu prediction?  
